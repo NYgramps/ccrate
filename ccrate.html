@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Rate of Return</title>
+  <link rel='stylesheet' href='css/ccrate.css' type='text/css'>
+</head>
+<body>
+  <br>
+  <table id='tbl'>
+    <tr>
+      <td class='col1'>Transaction History (csv file)</td>
+      <td class='col2'><input type='file' id='browse'></input></td>
+      <td><button class='help' id='help1'>HELP</button></td>
+    </tr>
+    <tr>
+      <td class='col1'>Date of Earliest Transaction</td>
+      <td class='col2'><input type='text' id='begin' readonly></input></td>
+      <td><button class='help' id='help2'>HELP</button></td>
+    </tr>
+    <tr>
+      <td class='col1'>Enter End Date of Time Interval</td>
+      <td class='col2'><input type='text' id='when'></input></td>
+      <td><button class='help' id='help3'>HELP</button></td>
+    </tr>
+    <tr>
+      <td class='col1'>Enter Account Value on End Date</td>
+      <td class='col2'><input type='text' id='worth'></input></td>
+      <td><button class='help' id='help4'>HELP</button></td>
+    </tr>
+    <tr>
+      <td id='calcTxt'>Rate over Time Interval </td>
+      <td class='col2'><input type='text' id='rate'></input></td>
+      <td><button id='calcBtn'>COMPUTE</button></td>
+    </tr>
+  </table>
+  <br>
+  <script src='js/ccrate.js' type='text/javascript'></script>
+</body>
+</html>
+

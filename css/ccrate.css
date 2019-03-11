@@ -1,0 +1,97 @@
+body
+  {
+  background-color: #A9A9A9        /*  darkgray  */
+  }
+#tbl
+  {
+  margin: 7% auto 0% auto;
+  table-layout: auto;
+  border: 1px solid black;
+  background-color: #D3D3D3;       /*  lightgray  */
+  }
+#tbl td
+  {
+  height: 35px;
+  }
+#begin
+  {
+  height: 20px;
+  width:  250px;
+  text-align: center;
+  }
+#when
+  {
+  height: 20px;
+  width:  250px;
+  text-align: center;
+  }
+#worth
+  {
+  height: 20px;
+  width:  250px;
+  text-align: center;
+  }
+#rate
+  {
+  height: 20px;
+  width:  250px;
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: medium;
+  }
+#browse
+  {
+  height: 35px;
+  width:  300px;
+  background-color: #D3D3D3;      /*  lightgray  */
+  }
+.col1
+  {
+  border: 0px solid black;
+  width:  450px;
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: large;
+  color: #F8F8FF;                 /*  ghostwhite  */
+  background-color: #B22222;      /*  firebrick  */
+  }
+.col2
+  {
+  border: 0px solid black;
+  text-align: left;
+  }
+.help
+  {
+  height: 40px;
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: large;
+  color: #B22222;                 /*  firebrick  */
+  background-color: #A9A9A9;      /*  darkgrqy  */
+  }
+#calcTxt
+  {
+  height: 40px;
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: large;
+  color: #FFD700;                 /*  gold  */
+  background-color: #000080;      /*  navyblue  */
+  }
+#calcBtn
+  {
+  height: 40px;
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: large;
+  }
