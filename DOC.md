@@ -37,6 +37,6 @@ to a high degree of accuracy after only a few iterations of the formula
 
 initializing *r*<sub>1</sub> with a guess of the root value, and *g&prime;(r)* denoting the *derivative* of *g(r)*.
 
-So a **continuously compounded rate**, denoted **_ccrate_**, is yet another measure of the performance of such an investment over its lifetime, accounting for all deposits and withdrawals.  Indeed, even maintenance and/or advisory fees would be accounted for implicitly for certain types of financial investments dependent on market value. **_ccrate_** can be thought of as an extension of the usual concept of interest rate.  It is a very good appoximation of interest rates compounded with at least a monthly frequency, and is easier to work with because it is defined in terms of the standard exponential
+So a **continuously compounded rate**, denoted **_ccrate_**, is yet another measure of the performance of such an investment over its lifetime, accounting for all deposits and withdrawals.  Indeed, even maintenance and/or advisory fees would be accounted for implicitly for certain types of financial investments dependent on market value. **_ccrate_** can be thought of as a relative of the usual concept of interest rate.  It is a very good appoximation of interest rates compounded with at least a monthly frequency, and is easier to work with because it is defined in terms of the standard exponential
 function of calculus, <i>exp()</i>, which has many nice mathematical properties.
 
