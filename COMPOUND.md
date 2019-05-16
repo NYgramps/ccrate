@@ -18,12 +18,12 @@ is the account value at the end of the *i<sup> th</sup>* compounding period,
 let *a<sub>0</sub>* = *p*, for consistency.  Then
 <p align="center"><i>
 a<sub>1</sub> = a<sub>0</sub> + a<sub>0</sub>(r &frasl; n)
-=a<sub>0</sub> (1 + r &frasl; n).
+= a<sub>0</sub> (1 + r &frasl; n).
 </i></p>
 Likewise,
 <p align="center"><i>
 a<sub>2</sub> = a<sub>1</sub> (1 + r &frasl; n) 
-= a<sub>0</sub>(1 + r &frasl; n)<sup>2</sup>.
+= a<sub>0</sub> (1 + r &frasl; n)<sup>2</sup>.
 </i></p>
 
 Continuing in this manner, the account value at the end of a year is equal to
@@ -85,7 +85,7 @@ the payoff over a time period, *t*.  For example, what is the *ccrate* which ret
 for an investment of $100?
 Note that 5% is the obvious answer when compounding occurs annually.  The *ccrate* is almost as easy:
 it is that value of *r* which satisfies the equation
-<p align="center"><i>105 = 100e<sup>r</sup>,</i></p>
+<p align="center"><i>105 = 100 e<sup>r</sup>,</i></p>
 or
 <p align="center"><i>r = ln(105 &frasl; 100) = 4.88%,</i></p>
     
@@ -110,12 +110,13 @@ This answer is obvious: 0% because $1000 - $50 = $950 is true independent of any
 of interest rates.  But what if the return is $1000?  Now, an intrest rate is needed which
 generates enough interest over the last 6 months to replace the $50 that is removed at midyear, but which is
 active over the course of the entire year.  If *r* represents this continuous interest rate,
-the value of the account at midyear, prior to the withdrawal, is equal to 1000&sdot;*e*<sup>0.5*r*</sup>
+the value of the account at midyear, prior to the withdrawal, is equal to
+1000 *e*<sup>0.5*r*</sup>
 because the interest rate is prorated over the first 6 months, and thus, the amount in the account at the
-beginning of the final 6 months is 1000&sdot;*e*<sup>0.5*r*</sup> - 50.  Therefore, the following
+beginning of the final 6 months is 1000 *e*<sup>0.5*r*</sup> - 50.  Therefore, the following
 equation
 
-<p align="center"><i> (1000&sdot;e<sup>0.5r</sup> - 50)e<sup>0.5r</sup> = 1000 </i></p>
+<p align="center"><i> (1000 e<sup>0.5r</sup> - 50)e<sup>0.5r</sup> = 1000 </i></p>
 
 must be solved for *r*, but *r* generally does not have a closed form
 solution for this class of equations,
@@ -128,7 +129,7 @@ coded in plain vanilla javascript, which solves these types of problems
 and runs offline.  It can be downloaded from [github](https://github.com/NYgramps/ccrate).
 The answer supplied by this application is _r\*_ = 5.02%.  If
 
-<p align="center"><i> &phi;(r) = 1000&sdot;e<sup>r</sup> - 50&sdot;e<sup>0.5r</sup> -
+<p align="center"><i> &phi;(r) = 1000 e<sup>r</sup> - 50 e<sup>0.5r</sup> -
     1000, </i></p>
 
 it is easy to verify that &phi;(_r\*_) = 0.21, indicating that _r\*_ is close in value
