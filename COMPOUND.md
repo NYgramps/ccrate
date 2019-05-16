@@ -17,18 +17,18 @@ If *p* denotes the initial principle in the account, and *a<sub>i</sub>*
 is the account value at the end of the *i<sup> th</sup>* compounding period,
 let *a<sub>0</sub>* = *p*, for consistency.  Then
 <p align="center"><i>
-a<sub>1</sub>=a<sub>0</sub> + a<sub>0</sub>(r &frasl; n)
+a<sub>1</sub> = a<sub>0</sub> + a<sub>0</sub>(r &frasl; n)
 =a<sub>0</sub> (1 + r &frasl; n).
 </i></p>
 Likewise,
 <p align="center"><i>
-a<sub>2</sub>=a<sub>1</sub> (1 + r &frasl; n)
-=a<sub>0</sub>(1 + r &frasl; n)<sup>2</sup>.
+a<sub>2</sub> = a<sub>1</sub> (1 + r &frasl; n) 
+= a<sub>0</sub>(1 + r &frasl; n)<sup>2</sup>.
 </i></p>
 
 Continuing in this manner, the account value at the end of a year is equal to
 <p align="center"><i>
-a<sub>n</sub>=p(1 + r &frasl; n)<sup>n</sup>.
+a<sub>n</sub> = p(1 + r &frasl; n)<sup>n</sup>.
 </i></p>
 
 The greater *n* becomes, the smaller *r &frasl; n* becomes, so the expression inside
@@ -41,7 +41,9 @@ suggests that as *n* becomes unboundedly large, the expression appears to actual
 approach a finite value.  The last row follows from one of the most celebrated
 equations in all of calculus:
 
-<p align="center"> <img src="limit.png" height="40"> , </p>
+<p align="center">
+<img src="limit.png">
+</p>
 
 where the number *e*, sometimes referred to as Euler's constant, is the *base of natural
 logarithms*, and its inverse function, is the *exponential* function of calculus.  Thus,
