@@ -1,6 +1,6 @@
-#### <center> ON COMPOUNDING </center>
+<h4 align="center">ON COMPOUNDING</h4>
 
-##### <center> 1. Foundation </center>
+<h5 align="center"> 1. Foundation </h5>
 
 A *compounding period* consists of a time interval and a fixed interest rate
 to be applied to the value of a financial account at the beginning
@@ -16,10 +16,10 @@ intervals, such as days, hours, minutes, etc.
 If *p* denotes the initial principle in the account, and *a<sub>i</sub>*
 is the account value at the end of the *i<sup> th</sup>* compounding period,
 let *a<sub>0</sub>* = *p*, for consistency.  Then
-<center>
-*a<sub>1</sub>*=*a<sub>0</sub>* + *a<sub>0</sub>(r &frasl; n*)
-=*a<sub>0</sub> (1 + r &frasl; n*).
-</center>
+<p align="center"><i>
+a<sub>1</sub>=a<sub>0</sub> + a<sub>0</sub>(r &frasl; n)
+=a<sub>0</sub> (1 + r &frasl; n).
+</i></p>
 Likewise,
 <center>
 *a*<sub>2</sub>&nbsp;&nbsp;=&nbsp;&nbsp;*a*<sub>1</sub> (1 + *r &frasl; n*)&nbsp;&nbsp;
@@ -28,7 +28,7 @@ Likewise,
 
 Continuing in this manner, the account value at the end of a year is equal to
 <center>
-*a<sub>n</sub>*=*p(1 + r &frasl; n)<sup>n</sup>*.
+*a<sub>n</sub>=p(1 + r &frasl; n)<sup>n</sup>*.
 </center>  
 
 The greater *n* becomes, the smaller *r &frasl; n* becomes, so the expression inside
