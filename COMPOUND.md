@@ -21,15 +21,15 @@ a<sub>1</sub>=a<sub>0</sub> + a<sub>0</sub>(r &frasl; n)
 =a<sub>0</sub> (1 + r &frasl; n).
 </i></p>
 Likewise,
-<center>
-*a*<sub>2</sub>&nbsp;&nbsp;=&nbsp;&nbsp;*a*<sub>1</sub> (1 + *r &frasl; n*)&nbsp;&nbsp;
-=&nbsp;&nbsp;*a<sub>0</sub>*(1 + *r* &frasl; *n*)<sup>2</sup>.
-</center>
+<p align="center"><i>
+a<sub>2</sub>=a<sub>1</sub> (1 + r &frasl; n)
+=a<sub>0</sub>(1 + r &frasl; n)<sup>2</sup>.
+</i></p>
 
 Continuing in this manner, the account value at the end of a year is equal to
-<center>
-*a<sub>n</sub>=p(1 + r &frasl; n)<sup>n</sup>*.
-</center>  
+<p align="center"><i>
+a<sub>n</sub>=p(1 + r &frasl; n)<sup>n</sup>.
+</i></p>
 
 The greater *n* becomes, the smaller *r &frasl; n* becomes, so the expression inside
 the parentheses gets closer to 1, and although the exponent is getting larger,
