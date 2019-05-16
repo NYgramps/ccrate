@@ -70,9 +70,9 @@ $105,127.11, a difference of only $2.53.
 A CD with the following policy was recently advertised: "interest computed daily and added
 monthly".  This is simply slick marketing to make unwary investors think
 they would be getting something better than monthly compounding. UH UH!  By this point in our discussion,
-you know that
+you know that:
 
-<p align="center"><i> the power of compounding lies in the frequency of the addition of accumulated interest. </i></p>
+<p align="center"><i> The power of compounding lies in the frequency of the addition of accrued interest. </i></p>
     
 The table above shows that although the difference may hardly be noticed by many investors,
 the institution borrowing millions of dollars worth of CDs is probably saving some
@@ -93,7 +93,7 @@ value.  Because *ccrates* are defined in terms of exponentials, which are genera
 to work with than powers, *ccrates* are used to provide an answer to the scenario presented
 in the next section.
 
-##### <center> 2.Extension </center>
+<h5 align="center"> 2.Extension </h5>
 
 Consider an account allowing both deposits and withdrawals at any time.  Furthermore, it is possible
 to ascertain the value of the account at any time after it has been established, e.g., a mutual fund.
@@ -113,7 +113,7 @@ because the interest rate is prorated over the first 6 months, and thus, the amo
 beginning of the final 6 months is 1000&sdot;*e*<sup>0.5*r*</sup> - 50.  Therefore, the following
 equation
 
-<center>(1000&sdot;*e*<sup>0.5*r*</sup> - 50)*e*<sup>0.5*r*</sup> = 1000 </center>
+<p align="center"><i> (1000&sdot;e<sup>0.5r</sup> - 50)e<sup>0.5r</sup> = 1000 </i></p>
 
 must be solved for *r*, but *r* generally does not have a closed form
 solution for this class of equations,
@@ -126,8 +126,8 @@ coded in plain vanilla javascript, which solves these types of problems
 and runs offline.  It can be downloaded from [github](https://github.com/NYgramps/ccrate).
 The answer supplied by this application is _r\*_ = 5.02%.  If
 
-<center> &phi;(*r*) = 1000&sdot;*e*<sup>*r*</sup> - 50&sdot;*e*<sup>0.5*r*</sup> -
-    1000, </center>
+<p align="center"><i> &phi;(r) = 1000&sdot;e<sup>r</sup> - 50&sdot;e<sup>0.5r</sup> -
+    1000, </i></p>
 
 it is easy to verify that &phi;(_r\*_) = 0.21, indicating that _r\*_ is close in value
 to the ideal, exact root of &phi;(). This knowledge is useful when evaluating the
