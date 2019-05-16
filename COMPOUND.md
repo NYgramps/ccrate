@@ -41,11 +41,11 @@ suggests that as *n* becomes unboundedly large, the expression appears to actual
 approach a finite value.  The last row follows from one of the most celebrated
 equations in all of calculus:
 
-<p align="center"> <img src="limit.png" height="37"> , </p>
+<p align="center"> <img src="limit.png" height="40"> , </p>
 
 where the number *e*, sometimes referred to as Euler's constant, is the *base of natural
 logarithms*, and its inverse function, is the *exponential* function of calculus.  Thus,
-the number at the bottom of the third column is *e<sup>.05</sup>*, rounded off to 9 decimal places.
+the number at the bottom of the third column is *e<sup> .05</sup>*, rounded off to 9 decimal places.
 
 | *type of compounding* | *number of compounding periods* | *(1 + .05 &frasl; n)<sup>n</sup>* |
 | :---: | :---: | :---: |
