@@ -17,8 +17,8 @@ If *p* denotes the initial principle in the account, and *a<sub>i</sub>*
 is the account value at the end of the *i<sup> th</sup>* compounding period,
 let *a<sub>0</sub>* = *p*, for consistency.  Then
 <center>
-*a*<sub>1</sub>&nbsp;&nbsp;=&nbsp;&nbsp;*a*<sub>0</sub> + *a*<sub>0</sub>&nbsp;(*r &frasl; n*)
-=&nbsp;&nbsp;*a*<sub>0</sub> (1 + *r* &frasl; *n*).
+*a<sub>1</sub>*=*a<sub>0</sub>* + *a<sub>0</sub>(r &frasl; n*)
+=*a<sub>0</sub> (1 + r &frasl; n*).
 </center>
 Likewise,
 <center>
@@ -28,7 +28,7 @@ Likewise,
 
 Continuing in this manner, the account value at the end of a year is equal to
 <center>
-*a*<sub>*n*</sub>&nbsp;&nbsp;=&nbsp;&nbsp;*p*(1 + *r* &frasl; *n*)<sup>*n*</sup>.
+*a<sub>n</sub>*=*p(1 + r &frasl; n)<sup>n</sup>*.
 </center>  
 
 The greater *n* becomes, the smaller *r &frasl; n* becomes, so the expression inside
