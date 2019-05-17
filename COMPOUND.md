@@ -97,9 +97,9 @@ in the next section.
 Consider an account allowing both deposits and withdrawals at any time.  Furthermore, it is possible
 to ascertain the value of the account at any time after it has been established, e.g., a mutual fund.
 What is the *ccrate* at any particular time?  This is a natural question to ask because
-it provides a measure of how well the account is performing, independent of what you see in your
-account statements.  We will demonstrate how to do this without requiring any deeper knowledge of
-calculus than what has already been used in the discussion so far.
+it provides a measure of how well the account is performing, providing an independent
+check of what you see in your account statements.  We will demonstrate how to do this without requiring any deeper knowledge of calculus than what has already been used
+in the discussion so far.
 
 Suppose we invest $1000 as the initial principal, and withdraw $50 after 6 months.  If the payoff at
 year's end is $950, what is the *ccrate* rate for such an investment?
@@ -119,9 +119,11 @@ must be solved for *r*, but *r* generally does not have a closed form
 solution for this class of equations,
 unlike the simple situation above in which the natural logarithm was
 available.  However, it is possible to find an approximate solution to any desired degree
-of accuracy, but the algorithm depends on mathematics more advanced than many readers
+of accuracy, but the algorithm depends on mathematics
+\[[documentation](https://github.com/NYgramps/ccrate/blob/master/DOC.md)\] 
+more advanced than many readers
 may be familiar with.  Consequently, a browser application has been written, hiding
-the mathematics \[[documentation](https://github.com/NYgramps/ccrate/blob/master/DOC.md)\] in the background,
+the mathematics in the background,
 coded in plain vanilla javascript, which solves these types of problems
 and runs offline.  It can be downloaded from [github](https://github.com/NYgramps/ccrate).
 The answer supplied by this application is _r\*_ = 5.02%.  If
