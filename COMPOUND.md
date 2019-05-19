@@ -36,7 +36,7 @@ the parentheses gets closer to 1, and although the exponent is getting larger,
 1 raised to any power remains equal to 1.  So what happens to the value of
 the exponential portion of the expression for *a<sub>n</sub>* as the number of
 compounding periods increases, or equivalently, the compounding intervals become
-shorter in time?  Before we can perform any numerical calculations, a specific rate of interest is required, so letsassign *r* = .05, that is, 5 percent.
+shorter in time?  Before we can perform any numerical calculations, a specific rate of interest is required, so lets assign *r* = .05, that is, 5 percent.
 The following table is of interest because it suggests that as *n* becomes unboundedly large, the expression appears to actually approach a finite value.  The last row
 follows from one of the most celebrated equations in all of calculus:
 
@@ -87,10 +87,9 @@ or
 <p align="center"><i>r = ln(105 &frasl; 100) = 4.88%,</i></p>
     
 where *ln* is the symbol for the natural logarithm function, a standard feature on almost
-any hand calculator.  As expected, it is smaller than the annual rate, and close in
-value.  Because *ccrates* are defined in terms of exponentials, which are generally easier
-to work with than powers, *ccrates* are used to provide an answer to the scenario presented
-in the next section.
+any hand calculator.  As expected, it is smaller than the annual rate, and the two
+rates are close in value.  Because *ccrates* are defined in terms of exponentials,
+which are generally easier to work with than powers, *ccrates* are used to provide an answer to the scenario presented in the next section.
 
 <h5 align="center"> 2.Extension </h5>
 
