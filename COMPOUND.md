@@ -103,7 +103,7 @@ in the discussion so far.
 Suppose we invest $1000 as the initial principal, and withdraw $50 after 6 months.  If the payoff at
 year's end is $950, what is the *ccrate* rate for such an investment?
 This answer is obvious: 0% because $1000 - $50 = $950 is true independent of any consideration
-of interest rates.  But what if the payoff is $1000?  Now, an intrest rate is needed which
+of interest rates.  But what if the payoff is $1000?  Now, an interest rate is needed which
 generates enough interest over the last 6 months to replace the $50 that is removed at midyear, but which is
 active over the course of the entire year.  If *r* represents this continuous interest rate,
 the value of the account at midyear, prior to the withdrawal, is equal to
