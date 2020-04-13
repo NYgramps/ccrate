@@ -20,23 +20,23 @@ Note that *t[1] + t[2]* is the time interval [*d[1]*, *D*].  More generally, if 
 the above equation becomes
 
 <p align="center">
-<a href="https://www.codecogs.com/eqnedit.php?latex=\fn_cm&space;V&space;=&space;\sum_{i=1}^{I}f[i]e^{ry[i]}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\fn_cm&space;V&space;=&space;\sum_{i=1}^{I}f[i]e^{ry[i]}" title="V = \sum_{i=1}^{I}f[i]e^{ry[i]}" /></a>
+<img src="Val.png">
 </p>
 
 where *y[i]* equals the time interval [*d[i], D*] in years.  Although there is no closed-form solution for *r*, the *Newton-Raphson* numerical method can be used to generate successively improving appoximations of the root of
 
 <p align="center">
-<a href="https://www.codecogs.com/eqnedit.php?latex=\fn_cm&space;g(r)&space;=&space;\sum_{i=1}^{I}f[i]e^{ry[i]}&space;-&space;V" target="_blank"><img src="https://latex.codecogs.com/png.latex?\fn_cm&space;g(r)&space;=&space;\sum_{i=1}^{I}f[i]e^{ry[i]}&space;-&space;V" title="g(r) = \sum_{i=1}^{I}f[i]e^{ry[i]} - V" /></a>
+<img src="fcn.png">
 </p>
 
 to a high degree of accuracy after only a few iterations of the formula
 
 <p align="center">
-<a href="https://www.codecogs.com/eqnedit.php?latex=\fn_cm&space;r_{n&plus;1}&space;=&space;r_{n}&space;-&space;\frac{g(r_{n})}{g\prime(r_{n})}," target="_blank"><img src="https://latex.codecogs.com/png.latex?\fn_cm&space;r_{n&plus;1}&space;=&space;r_{n}&space;-&space;\frac{g(r_{n})}{g\prime(r_{n})}," title="r_{n+1} = r_{n} - \frac{g(r_{n})}{g\prime(r_{n})}," /></a>
+<img src="NRiter.png">
 </p>
 
 initializing *r*<sub>1</sub> with a guess of the root value, and *g&prime;(r)* denoting the *derivative* of *g(r)*.
 
-So a **continuously compounded rate**, denoted **_ccrate_**, is yet another measure of the performance of such an investment over its lifetime, accounting for all deposits and withdrawals.  Indeed, even maintenance and/or advisory fees would be accounted for implicitly for certain types of financial investments dependent on market value. **_ccrate_** can be thought of as a relative of the usual concept of interest rate.  It is a very good appoximation of interest rates compounded with at least a monthly frequency, and is easier to work with because it is defined in terms of the standard exponential
+So a **continuously compounded rate**, denoted **_ccrate_**, is yet another measure of the performance of such an investment over its lifetime, accounting for all deposits and withdrawals.  Indeed, even maintenance and/or advisory fees would be accounted for implicitly for certain types of financial investments dependent on market value. **_ccrate_** can be thought of as an extension of the usual concept of interest rate.  It is a very good appoximation of interest rates compounded with at least a monthly frequency, and is easier to work with because it is defined in terms of the standard exponential
 function of calculus, <i>exp()</i>, which has many nice mathematical properties.
 
