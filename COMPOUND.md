@@ -125,11 +125,11 @@ may be familiar with.  Consequently, a browser application has been written, hid
 the mathematics in the background,
 coded in plain vanilla javascript, which solves these types of problems
 and runs offline.  It can be downloaded from [github](https://github.com/NYgramps/ccrate).
-The answer supplied by this application is _r\*_ = 5.02%.  If
+The answer supplied by this application is _r\*_ = 5.004%.  If
 
 <p align="center"><i> &phi;(r) = 1000e<sup>r</sup> - 50e<sup>0.5r</sup> -
     1000, </i></p>
 
-it is easy to verify that &phi;(_r\*_) = 0.21, indicating that _r\*_ is close in value
+it is easy to verify that &phi;(_r\*_) = 0.0464, indicating that _r\*_ is close in value
 to the ideal, exact root of &phi;(). This knowledge is useful when evaluating the
 performance of an investment.
